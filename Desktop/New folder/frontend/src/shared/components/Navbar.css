@@ -1,0 +1,177 @@
+/* Navbar */
+
+.logo{
+    width: 24px;
+    height: 30px;
+    /* margin: auto 7px; */
+    margin-bottom: 5%;
+    margin-right: 5%;
+  }
+  
+  .navbar-brand{
+    font-family: 'Berlin Sans FB';
+    font-size: 1.7rem;
+  }
+  
+  .logo2{
+    width: 90px;
+    margin: 7px;
+  }
+  
+  .navbar{
+    background-color: #1A1A1A;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .nav-link {
+    color: white;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .nav-link:hover {
+    color: white;
+    background-color: rgb(94, 91, 91);
+    
+  }
+  
+  .justify-content-right {
+    margin-right: 5%;
+  }
+  
+  .nav-item:hover{
+    text-decoration: none;
+  }
+  
+  
+  /* .portal-div{
+    background-color: white;
+    border-radius: 28px;
+    height:40px;
+    margin:auto 15px;
+    margin-top:3px;
+  } */
+  
+  .portal-link{
+    position:relative;
+    color:red;
+    font-size: 1.2rem;
+    font-weight: bold;
+    bottom: 3px;
+  }
+  
+  
+  /* Portal Navbar */
+  
+  .button-in{
+      position:relative;
+      width:280px;
+      margin-left: 3%;
+    }
+    
+    input.search{
+      margin: 10px auto;
+      border-radius: 28px;
+      text-align: left;
+      border-style: solid;
+      border-color: #046582;
+      border-width: 0.15rem;
+      background-color: rgba(67, 63, 63, 0.474);
+      width:100%;
+      height: 35px;
+      padding-left:17px;
+      border:none;
+      outline: none;
+    } 
+  
+    input.search:focus {
+      font-weight: 600;
+      color: white;
+      box-shadow: 0 0 0 0.15rem #046582
+    }
+    
+    .search-btn{
+      position: absolute;
+      z-index: 1;
+      top:2px;
+      right:3px;
+      height: 30px;
+      width:50px;
+      background-color:#FC7600;
+      border-radius: 28px;
+      border:none;
+      outline: none;
+    }
+  
+  .ask-button {
+    width: 32%;
+    height: 32%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  
+  .glow-on-hover {
+    padding-left: 40px;
+    padding-right: 40px;
+    /* width: 100%; */
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #1a1a1a;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    text-align: centre;
+  }
+  
+  .glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 500%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .glow-on-hover:active {
+    color: #1a1a1a
+  }
+  
+  .glow-on-hover:active:after {
+    background: transparent;
+  }
+  
+  .glow-on-hover:hover:before {
+    opacity: 1;
+  }
+  
+  .glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1a1a1a;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  }

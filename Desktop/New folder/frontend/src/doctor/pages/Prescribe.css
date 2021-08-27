@@ -1,0 +1,89 @@
+.patient-details {
+    width: 40%;
+    background-color: #F76B8A;
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 2%;
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.patient-name {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.patient-city {
+    margin-left: 14%;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.patient-gender {
+    float: right;
+    font-size: 2rem;
+    top: 6%;
+    margin-left: 26.5%;
+}
+
+.patient-problem {
+    width: 40%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    background-color: #e3e3e3;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.patient-medication {
+    width: 40%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    background-color: #e3e3e3;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.medicinesDIV {
+    position: absolute;
+    width: 50%;
+    top: 6%;
+    padding: 1%;
+    margin-left: 47%;
+    border-radius: 10px;
+    background-color: #C3AED6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.medicine-label {
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.medicine-input {
+    margin-top: 0;
+}
+
+select {
+    padding: 1%;
+    border-radius: 8px;
+    background-color: #dfdfdf;
+    margin-bottom: 1%;
+}
+
+.add-btn2 {
+    color: white;
+    width: 100%;
+    font-weight: 700;
+}
+
+.submit-btn2 {
+    width: 100%;
+    font-weight: 700;
+}

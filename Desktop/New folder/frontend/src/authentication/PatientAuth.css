@@ -1,0 +1,100 @@
+#wrapper {
+    min-height: 100%;
+    background-image: url("../Photos/PATIENT-bg.svg")!important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 0.5%;
+    padding-bottom: 7%;
+    background-size: cover;
+}
+
+#wrapper2 {
+    min-height: 100%;
+    background-image: url("../Photos/DOCTOR-bg.jpg")!important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 0.5%;
+    padding-bottom: 9%;
+    background-size: cover;
+}
+
+.auth-form{
+    margin-top: 3%;
+}
+
+.title{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+button {
+    margin-top: 2%;
+}
+
+.signin {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 10%;
+    padding: 2% 5%;
+    background-color: #f9f6f7;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.signin2 {
+    width: 45%;
+    margin-left: 50%;
+    margin-top: 10%;
+    padding: 2% 5%;
+    background-color: #f9f6f7;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.genderText {
+    font-weight: 700;
+    margin-right: 3%;
+}
+
+.genderDD {
+    color: white;
+    padding: 2%;
+    margin-right: 3%;
+    background-color: #064acb;
+    border-style: none;
+    border-radius: 8px;    
+}
+
+.designationDD {
+    color: white;
+    padding: 2%;
+    margin-right: 3%;
+    background-color: #064acb;
+    border-style: none;
+    border-radius: 8px; 
+}
+
+option {
+    color: black;
+    background-color: #dfdfdf;
+}
+
+.login-btn {
+    background-color: #7868e6;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 3%;
+    color: white;
+}
+
+.login-btn2 {
+    background-color: #7868e6;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+}

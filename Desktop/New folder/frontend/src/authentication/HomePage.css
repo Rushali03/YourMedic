@@ -1,0 +1,51 @@
+#wrapper3 {
+    min-height: 100%;
+    background-image: url("../Photos/SignUp-Bg.svg")!important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 0.5%;
+    padding-bottom: 18.5%;
+    background-size: cover;
+}
+  
+.Question {
+    display: inline-block;
+    margin-left: 38%;
+    margin-top: 13%;
+    background-color:#0000009e;
+    backdrop-filter: blur(10px);
+    padding: 1% 5% 2%;
+    border-radius: 10px;
+}
+
+.text {
+    color: white;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.doctor {
+    background-color: white;
+    text-align: center;
+    font-size: 1.7rem;    
+    padding: 2%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 13%;
+}
+
+.patient {
+    background-color: white;
+    text-align: center;
+    font-size: 1.7rem;    
+    padding: 2%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+link {
+    text-decoration: none;
+    color: red;
+}

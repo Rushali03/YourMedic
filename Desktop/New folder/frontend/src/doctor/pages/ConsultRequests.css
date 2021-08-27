@@ -1,0 +1,31 @@
+.Title{
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.DocBox{
+    margin-top: 1%;
+    padding: 1% 3% 1%;
+    border-radius: 80px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.AcceptBtn{
+    text-align: center;
+    border-radius: 8px;  
+    background-color:white; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+}
+.AcceptBtn:hover {background-color: #fd7e43}
+
+.RejectBtn{
+    text-align: center;
+    border-radius: 8px;  
+    background-color: white; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+}
+.RejectBtn:hover {background-color: #fd7e43}
